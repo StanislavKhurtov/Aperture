@@ -669,6 +669,9 @@ body {
   line-height: 1.6666666667;
   border-radius: 0.625rem;
   color: #C0C0C0;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .bottom-footer {
@@ -1695,9 +1698,19 @@ body {
   }
 
   .menu__link_project:active {
-    -webkit-transform: translate(0px, 8%);
-        -ms-transform: translate(0px, 8%);
-            transform: translate(0px, 8%);
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+
+  .menu__link_btn {
+    display: block;
+  }
+
+  .menu__link_btn:active {
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
   }
 
   .tools {
@@ -1898,6 +1911,24 @@ body {
         flex-wrap: wrap;
   }
 
+  .item-portfolio._hoverList img {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+
+  .item-portfolio._hoverList::before {
+    opacity: 1;
+  }
+
+  .item-portfolio._hoverList .body-portfolio {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+
   .tools__text {
     text-align: center;
   }
@@ -1925,10 +1956,18 @@ body {
     color: #C0C0C0;
   }
 
+  .sub-menu-spollers__title span:hover {
+    text-decoration: underline;
+  }
+
+  .center-footer__button:hover {
+    color: #000;
+    background-color: #fff;
+    outline: 2px solid #000;
+  }
+
   .social-footer__link:hover {
-    -webkit-transform: scale(1.15);
-        -ms-transform: scale(1.15);
-            transform: scale(1.15);
+    color: #3d5fa3;
   }
 
   .item-portfolio:hover img {
