@@ -81,7 +81,7 @@ body {
 }
 
 body {
-  color: #fff;
+  color: #ffffff;
   line-height: 1;
   font-family: "Poppins";
   font-size: 0.875rem;
@@ -137,7 +137,7 @@ h6 {
 }
 
 body {
-  background: #000;
+  background: #000000;
   font-weight: 400;
 }
 
@@ -280,17 +280,6 @@ body::after {
   visibility: visible;
 }
 
-/*
-.main-bg {
-	position: fixed;
-	top: -10%;
-	left: 0;
-	width: 100%;
-	height: 120%;
-	background: url('../main-bg.jpg') center / cover no-repeat;
-}
-*/
-
 [class*=-ibg] {
   position: relative;
 }
@@ -359,8 +348,8 @@ body::after {
 
 .popup__callback .popup__content {
   max-width: 31.25rem;
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   outline: 1px solid #C0C0C0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -440,7 +429,7 @@ body::after {
   letter-spacing: 0.4px;
   color: #000000;
   padding: 0.625rem 0.9375rem 0.6875rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 14px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease 0s;
@@ -455,7 +444,7 @@ body::after {
 }
 
 .form__text a {
-  color: #fff;
+  color: #ffffff;
 }
 
 .header {
@@ -586,7 +575,7 @@ body::after {
   letter-spacing: 0.4px;
   color: #000000;
   padding: 0.625rem 1.25rem 0.6875rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 0.875rem;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -631,7 +620,7 @@ body::after {
   left: 0;
   font-size: 0.8125rem;
   padding: 0.9375rem 0.625rem;
-  background-color: #000;
+  background-color: #000000;
   opacity: 0.7;
 }
 
@@ -677,7 +666,7 @@ body::after {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ffffff;
 }
 
 @supports ((-moz-column-gap: clamp( 0.625rem , -16.9359756098rem  +  36.5853658537vw , 2.5rem )) or (column-gap: clamp( 0.625rem , -16.9359756098rem  +  36.5853658537vw , 2.5rem ))) {
@@ -830,7 +819,7 @@ body::after {
 }
 
 .center-footer {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -915,7 +904,7 @@ body::after {
   top: 10px;
   right: 6px;
   padding: 0.3125rem 0.9375rem;
-  background-color: #000;
+  background-color: #000000;
   font-size: 0.75rem;
   line-height: 1.6666666667;
   border-radius: 0.625rem;
@@ -986,7 +975,13 @@ body::after {
 }
 
 .no-webp .home{
-  background: url("../img/home/home.png") center/cover no-repeat; }
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(77%, rgba(0, 0, 0, 0)), color-stop(89%, rgb(0, 0, 0))), url("../img/home/beregskaly.jpg") center/cover no-repeat; }
+
+.no-webp .home{
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 77%, rgb(0, 0, 0) 89%), url("../img/home/beregskaly.jpg") center/cover no-repeat; }
+
+.no-webp .home{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 77%, rgb(0, 0, 0) 89%), url("../img/home/beregskaly.jpg") center/cover no-repeat; }
 
 .home {
   position: relative;
@@ -1361,7 +1356,7 @@ body::after {
   letter-spacing: 0.4px;
   color: #000000;
   padding: 0.625rem 0.625rem 0.6875rem 2.625rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 14px;
   cursor: pointer;
   position: relative;
@@ -1378,14 +1373,14 @@ body::after {
   top: 4px;
   left: 5px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #000000;
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
 }
 
 .no-webp .photoset{
-  background: url("../img/photoset/fuji.jpg") center/cover no-repeat fixed; }
+  background: url("../img/photoset/fujiJapan.jpg") center/cover no-repeat fixed; }
 
 .photoset {
   position: relative;
@@ -1547,9 +1542,9 @@ body::after {
 .tools__button {
   line-height: 1.25;
   letter-spacing: 0.4px;
-  color: #000;
+  color: #000000;
   padding: 0.625rem 0.625rem 0.6875rem 2.625rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 14px;
   cursor: pointer;
   position: relative;
@@ -1576,7 +1571,7 @@ body::after {
   top: 4px;
   left: 5px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #000000;
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
@@ -1613,7 +1608,7 @@ body::after {
 }
 
 .no-webp .photo-monstera{
-  background: url("../img/photoset/monstera.png") center/cover no-repeat fixed; }
+  background: url("../img/photoset/list.jpg") center/cover no-repeat fixed; }
 
 .photo-monstera {
   position: relative;
@@ -1884,9 +1879,9 @@ body::after {
 .callback__button {
   line-height: 1.25;
   letter-spacing: 0.4px;
-  color: #000;
+  color: #000000;
   padding: 0.625rem 0.625rem 0.6875rem 2.625rem;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 14px;
   cursor: pointer;
   position: relative;
@@ -1913,7 +1908,7 @@ body::after {
   top: 4px;
   left: 5px;
   border-radius: 50%;
-  background-color: #000;
+  background-color: #000000;
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
@@ -2199,8 +2194,8 @@ body::after {
 @media (any-hover: hover) {
   .form__button:hover {
     background-color: transparent;
-    color: #fff;
-    outline: 1px solid #fff;
+    color: #ffffff;
+    outline: 1px solid #ffffff;
   }
 
   .menu__link_project:hover {
@@ -2222,9 +2217,9 @@ body::after {
   }
 
   .center-footer__button:hover {
-    color: #000;
-    background-color: #fff;
-    outline: 2px solid #000;
+    color: #000000;
+    background-color: #ffffff;
+    outline: 2px solid #000000;
   }
 
   .social-footer__link:hover {
@@ -2251,22 +2246,22 @@ body::after {
 
   .body-portfolio__button:hover {
     background-color: transparent;
-    color: #fff;
-    outline: 1px solid #fff;
+    color: #ffffff;
+    outline: 1px solid #ffffff;
   }
 
   .body-portfolio__button:hover::before {
-    background-color: #fff;
+    background-color: #ffffff;
   }
 
   .tools__button:hover {
     background-color: transparent;
-    color: #fff;
-    outline: 1px solid #fff;
+    color: #ffffff;
+    outline: 1px solid #ffffff;
   }
 
   .tools__button:hover::before {
-    background-color: #fff;
+    background-color: #ffffff;
   }
 
   .partners__item:hover {
@@ -2278,21 +2273,25 @@ body::after {
 
   .callback__button:hover {
     background-color: transparent;
-    color: #fff;
-    outline: 1px solid #fff;
+    color: #ffffff;
+    outline: 1px solid #ffffff;
   }
 
   .callback__button:hover::before {
-    background-color: #fff;
+    background-color: #ffffff;
   }
 }
 
 .webp .popup__callback .popup__content{ background: url(../img/portfolio/image2.webp) center/cover no-repeat; }
 
-.webp .home{ background: url(../img/home/home.webp) center/cover no-repeat; }
+.webp .home{ background: -webkit-gradient(linear, left top, left bottom, color-stop(77%, rgba(0, 0, 0, 0)), color-stop(89%, rgb(0, 0, 0))), url(../img/home/beregskaly.webp) center/cover no-repeat; }
 
-.webp .photoset{ background: url(../img/photoset/fuji.webp) center/cover no-repeat fixed; }
+.webp .home{ background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 77%, rgb(0, 0, 0) 89%), url(../img/home/beregskaly.webp) center/cover no-repeat; }
 
-.webp .photo-monstera{ background: url(../img/photoset/monstera.webp) center/cover no-repeat fixed; }
+.webp .home{ background: linear-gradient(180deg, rgba(0, 0, 0, 0) 77%, rgb(0, 0, 0) 89%), url(../img/home/beregskaly.webp) center/cover no-repeat; }
+
+.webp .photoset{ background: url(../img/photoset/fujiJapan.webp) center/cover no-repeat fixed; }
+
+.webp .photo-monstera{ background: url(../img/photoset/list.webp) center/cover no-repeat fixed; }
 
 .webp .block-nepal{ background: url(../img/nepal/nepal.webp) center/cover no-repeat; }
