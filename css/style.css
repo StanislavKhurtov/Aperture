@@ -280,6 +280,17 @@ body::after {
   visibility: visible;
 }
 
+/*
+.main-bg {
+	position: fixed;
+	top: -10%;
+	left: 0;
+	width: 100%;
+	height: 120%;
+	background: url('../main-bg.jpg') center / cover no-repeat;
+}
+*/
+
 [class*=-ibg] {
   position: relative;
 }
@@ -1374,10 +1385,9 @@ body::after {
 }
 
 .no-webp .photoset{
-  background: url("../img/photoset/fuji.jpg") center/cover no-repeat; }
+  background: url("../img/photoset/fuji.jpg") center/cover no-repeat fixed; }
 
 .photoset {
-  background-attachment: fixed;
   position: relative;
 }
 
@@ -1603,10 +1613,9 @@ body::after {
 }
 
 .no-webp .photo-monstera{
-  background: url("../img/photoset/monstera.png") center/cover no-repeat; }
+  background: url("../img/photoset/monstera.png") center/cover no-repeat fixed; }
 
 .photo-monstera {
-  background-attachment: fixed;
   position: relative;
 }
 
@@ -2282,8 +2291,8 @@ body::after {
 
 .webp .home{ background: url(../img/home/home.webp) center/cover no-repeat; }
 
-.webp .photoset{ background: url(../img/photoset/fuji.webp) center/cover no-repeat; }
+.webp .photoset{ background: url(../img/photoset/fuji.webp) center/cover no-repeat fixed; }
 
-.webp .photo-monstera{ background: url(../img/photoset/monstera.webp) center/cover no-repeat; }
+.webp .photo-monstera{ background: url(../img/photoset/monstera.webp) center/cover no-repeat fixed; }
 
 .webp .block-nepal{ background: url(../img/nepal/nepal.webp) center/cover no-repeat; }
