@@ -6,8 +6,10 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220616132720">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220918200510">
 	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css?_v=20220918200510" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css?_v=20220918200510" />
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -44,13 +46,14 @@
 				<button type="button" class="menu__icon icon-menu"><span></span></button>
 			</div>
 		</header>
+
 		<main class="mainpage">
-			<section class="mainpage__home home">
+			<section data-fullscreen class="mainpage__home home animate__animated animate__zoomIn">
 				<div class="home__container home__container_wide">
 					<div class="home__content content-home">
-						<div class="content-home__sub-title">Photographer & Filmmaker</div>
-						<h1 class="content-home__title">Aperture Studios</h1>
-						<div class="content-home__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						<div class="content-home__sub-title animate__animated animate__fadeInUp animate__delay-2s">Photographer & Filmmaker</div>
+						<h1 class="content-home__title animate__animated animate__fadeInUp animate__delay-2s">Aperture Studios</h1>
+						<div class="content-home__text animate__animated animate__fadeInUp animate__delay-2s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare,
 							eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
 							cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</div>
@@ -69,10 +72,10 @@
 			</section>
 			<section id="portfolio" class="mainpage__portfolio portfolio">
 				<div class="portfolio__container">
-					<h2 class="portfolio__title">What we do.</h2>
-					<div class="portfolio__text">The areas that we're specialized in.</div>
+					<h2 data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-duration="1000" data-aos-once="true" class="portfolio__title">What we do.</h2>
+					<div data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-duration="1500" data-aos-once="true" class="portfolio__text">The areas that we're specialized in.</div>
 					<div class="portfolio__list">
-						<div id="Product" class="portfolio__item item-portfolio">
+						<div id="Product" data-aos="fade-right" data-aos-easing="ease-in-back" data-aos-duration="2000" data-aos-once="true" class="portfolio__item item-portfolio">
 							<a class="item-portfolio__image" href="#"><picture><source srcset="img/portfolio/image1.webp" type="image/webp"><img src="img/portfolio/image1.jpg" alt=""></picture></a>
 							<div class="item-portfolio__body body-portfolio">
 								<h3 class="body-portfolio__title">Product Photography</h3>
@@ -85,7 +88,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="Architecture" class="portfolio__item item-portfolio">
+						<div id="Architecture" data-aos="fade-left" data-aos-easing="ease-in-back" data-aos-duration="2000" data-aos-once="true" class="portfolio__item item-portfolio">
 							<a class="item-portfolio__image" href="#"><picture><source srcset="img/portfolio/image2.webp" type="image/webp"><img src="img/portfolio/image2.jpg" alt=""></picture></a>
 							<div class="item-portfolio__body body-portfolio">
 								<h3 class="body-portfolio__title">Architecture Photography</h3>
@@ -100,7 +103,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="Drone" class="portfolio__item item-portfolio">
+						<div id="Drone" data-aos="fade-right" data-aos-easing="ease-in-back" data-aos-duration="2000" data-aos-once="true" class="portfolio__item item-portfolio">
 							<a class="item-portfolio__image" href="#"><picture><source srcset="img/portfolio/image3.webp" type="image/webp"><img src="img/portfolio/image3.jpg" alt=""></picture></a>
 							<div class="item-portfolio__body body-portfolio">
 								<h3 class="body-portfolio__title">Drone Photography</h3>
@@ -116,7 +119,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="Wildlife" class="portfolio__item item-portfolio">
+						<div id="Wildlife" data-aos="fade-left" data-aos-easing="ease-in-back" data-aos-duration="2000" data-aos-once="true" class="portfolio__item item-portfolio">
 							<a class="item-portfolio__image" href="#"><picture><source srcset="img/portfolio/image4.webp" type="image/webp"><img src="img/portfolio/image4.jpg" alt=""></picture></a>
 							<div class="item-portfolio__body body-portfolio">
 								<h3 class="body-portfolio__title">Wildlife Photography</h3>
@@ -135,7 +138,7 @@
 			</section>
 			<section class="mainpage__photoset photoset">
 				<div class="photoset__container photoset__container_wide">
-					<div class="photoset__content content-photoset">
+					<div data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-duration="1000" data-aos-once="true" class="photoset__content content-photoset">
 						<h4 class="content-photoset__title">Sunset at Mount Fuji</h4>
 						<div class="content-photoset__text">Duis tristique sed lorem a vestibulum. Cras commodo
 							consequat orci, in convallis risus egestas non.</div>
@@ -153,7 +156,7 @@
 				</div>
 			</section>
 			<section id="tool" class="mainpage__tools tools">
-				<div class="tools__content">
+				<div data-aos="fade-right" data-aos-easing="ease-in-back" data-aos-duration="2000" data-aos-once="true" class="tools__content">
 					<div class="tools__container">
 						<div class="tools__body">
 							<div class="tools__sub-title">The Gear cage</div>
@@ -168,7 +171,7 @@
 					</div>
 				</div>
 				<div class="tools__image">
-					<picture><source data-srcset="img/tools/tools.webp" type="image/webp"><img data-src="img/tools/tools.png" alt="image"></picture>
+					<picture><source data-srcset="img/tools/tools.webp" type="image/webp"><img data-aos="fade-left" data-aos-easing="ease-in-back" data-aos-duration="2000" data-aos-once="true" data-src="img/tools/tools.png" alt="image"></picture>
 				</div>
 				<div class="tools__menu menu-function">
 					<nav class="menu-function__body">
@@ -185,7 +188,7 @@
 			</section>
 			<section class="mainpage__photo photo-monstera">
 				<div class="photo-monstera__container photo-monstera__container_wide">
-					<div class="photo-monstera__content content-photoset">
+					<div data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-duration="1000" data-aos-once="true" class="photo-monstera__content content-photoset">
 						<h4 class="content-photoset__title">Monstera Leafs</h4>
 						<div class="content-photoset__text">Vestibulum sit amet urna turpis. Mauris euismod elit
 							et nisi ultrices, ut faucibus orci tincidunt.</div>
@@ -219,7 +222,7 @@
 			</section>
 			<section class="mainpage__block block-nepal">
 				<div class="block-nepal__container block-nepal__container_wide">
-					<div class="block-nepal__content content-photoset">
+					<div data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-duration="1000" data-aos-once="true" class="block-nepal__content content-photoset">
 						<h4 class="content-photoset__title">Monstera Leafs</h4>
 						<div class="content-photoset__text">Vestibulum sit amet urna turpis. Mauris euismod elit
 							et nisi ultrices, ut faucibus orci tincidunt.</div>
@@ -316,6 +319,10 @@
 			</div>
 		</footer>
 	</div>
+	<script src="https://unpkg.com/aos@next/dist/aos.js?_v=20220918200510"></script>
+	<script>
+		AOS.init();
+	</script>
 	<div id="callback" aria-hidden="true" class="popup popup__callback">
 		<div class="popup__wrapper">
 			<div class="popup__content">
@@ -349,7 +356,7 @@
 		</div>
 	</div>
 
-	<script src="js/app.min.js?_v=20220616132720"></script>
+	<script src="js/app.min.js?_v=20220918200510"></script>
 </body>
 
 </html>

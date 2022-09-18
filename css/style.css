@@ -280,6 +280,14 @@ body::after {
   visibility: visible;
 }
 
+[data-fullscreen] {
+  min-height: 100vh;
+}
+
+.touch [data-fullscreen] {
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
 [class*=-ibg] {
   position: relative;
 }
@@ -541,6 +549,7 @@ body::after {
 
 .menu__link {
   padding: 0.9375rem 0px;
+  z-index: 999999999999999900000000000000;
 }
 
 .menu__link_margin58 {
@@ -2024,6 +2033,12 @@ body::after {
 }
 
 @media (max-width: 47.99875em) {
+  .touch [data-fullscreen] {
+    -webkit-transition: height 0.2s;
+    -o-transition: height 0.2s;
+    transition: height 0.2s;
+  }
+
   .menu__body {
     position: fixed;
     overflow: auto;
